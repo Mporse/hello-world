@@ -26,7 +26,6 @@ company_list = f2.readline().split(",")
 print("Antal virksomheder: " + str(len(company_list)))
 
 f_2 = open(r"C:\Users\Porse\Desktop\biotek-virksomheder_i_DK_beskrivelser.txt", "w+")
-f_3 = open(r"C:\Users\Porse\Desktop\biotek-virksomheder_i_DK_links.txt", "w+")
 
 quote_page2 = "http://www.biosite.dk/virksomheder/"
 
@@ -49,4 +48,3 @@ for webpage in company_list:
 f.close()
 f2.close()
 f_2.close()
-f_3.close()
